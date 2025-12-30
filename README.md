@@ -36,7 +36,20 @@ Dr. Career Insight is a modern React application that uses Google's Gemini AI to
     npm run dev
     ```
 
-## 🐳 Run with Docker
+## � Deploy to Vercel
+
+The easiest way to deploy is to use the Vercel Platform.
+
+1.  Push your code to your GitHub repository.
+2.  **Import** your project into Vercel.
+3.  **Environment Variables**:
+    *   In the Vercel project settings, go to **Environment Variables**.
+    *   Add `GEMINI_API_KEY` with your actual API key as the value.
+4.  **Deploy**: Vercel will automatically detect Vite and build your site.
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FDinesh-rish%2FCareer-Insight)
+
+## �🐳 Run with Docker
 
 Build and run the application in a container:
 
